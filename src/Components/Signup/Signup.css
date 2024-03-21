@@ -1,0 +1,48 @@
+.signup_container{
+    background-image: url('https://i.pinimg.com/originals/0d/b7/ad/0db7adc400ada8465a25f3b808534fe6.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.signup_main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    flex-direction: column;
+}
+
+.link_signup{
+    color: white;
+    text-decoration: none;
+}
+
+
+.btn_signup{
+    display: inline-block;
+    padding: 10px 0;
+    background-color: rgb(113,69,10,0.8);
+    width: 300px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.btn_signup:hover{
+    background-color: rgb(113,69,10,0.6);
+    color: white;
+}
+
+.mb-3{
+    color: white;
+}
+
+.signup_grid{
+    color: white;
+}
+
+.signup_text{
+    color: white;
+}

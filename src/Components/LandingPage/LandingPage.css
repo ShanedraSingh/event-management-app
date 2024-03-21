@@ -1,0 +1,38 @@
+.landing_container{
+    background-image: url('https://i.pinimg.com/originals/0d/b7/ad/0db7adc400ada8465a25f3b808534fe6.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+.landing_page{
+    width: 100%;
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(2px);
+    gap: 10px;
+}
+
+.landing_page h1{
+    font-size: 2.4rem;
+}
+
+.landing_page p{
+    font-size: 1.4rem;
+}
+
+.landing_btn{
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.login_container{
+  background-image: url('https://i.pinimg.com/originals/0d/b7/ad/0db7adc400ada8465a25f3b808534fe6.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+.form-group{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login_container h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.form-group {
+  color: rgb(255, 255, 255);
+  margin-top: 4%;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  width: 35%;
+  padding: 8px;
+  border: 1px solid #eef1f3;
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+
+}
+
+
+
